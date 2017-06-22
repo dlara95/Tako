@@ -19,11 +19,6 @@
     </div>
   </div>
 </div>
-
-<div class="social">
-  <p>#MYZINVO</p>
-  <p>Follow our story on social media</p>
-</div>
 </div>
 
 <?php include('footer.php'); ?>
