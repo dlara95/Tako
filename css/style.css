@@ -1,5 +1,6 @@
 body {
     background: rgb(240, 240, 240);
+    font-family: 'Karla-Regular', Sans-Serif;
 }
 
 header,
@@ -19,11 +20,17 @@ header,
     width: 150px;
 }
 
+.navbar-brand {
+    height: auto;
+    margin-left: 0 !important;
+}
+
 .navbar-default .navbar-nav>li>a {
     color: #000;
     line-height: 92px;
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 10px 40px;
+    font-size: 18px;
 }
 
 .banner {
@@ -247,8 +254,5 @@ footer {
     }
     .header-inner h1 {
         font-size: 30px
-    }
-    .navbar-default {
-        margin-bottom: 50px !important;
     }
 }
